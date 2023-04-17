@@ -1,0 +1,75 @@
+.card {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    float: left;
+    overflow-y: scroll;
+    height: -10%;
+    background-color: thistle;
+  }
+.card-button1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+  
+  .username {
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    align-self: flex-start;
+    background-color: thistle;
+  }
+  
+  .blog-section {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+  }
+  
+  .container {
+    clear: both;
+    width: 100%;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+  }  
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image{
+    height: 2%;
+    width: 4%;
+  }
+
+  .navB{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    color: white;
+  }
